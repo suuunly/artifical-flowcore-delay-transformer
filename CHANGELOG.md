@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 (2024-03-18)
+
+
+### Features
+
+* added an artificial delay ([2234f37](https://github.com/suuunly/artifical-flowcore-delay-transformer/commit/2234f37b6ab0707f27fff0572fd098557d3d1605))
+
+
+### Bug Fixes
+
+* processing env properly ([3df23af](https://github.com/suuunly/artifical-flowcore-delay-transformer/commit/3df23afccd71cf41c01e95bb0c719ae11a8d41ca))
+
 ## [2.0.0](https://github.com/flowcore-io/nodejs-typescript-transformer-example/compare/v1.3.1...v2.0.0) (2023-10-24)
 
 
