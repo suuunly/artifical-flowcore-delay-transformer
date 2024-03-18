@@ -1,5 +1,5 @@
 {
-  "name": "example-nodejs-transformer",
+  "name": "artifical-flowcore-delay-transformer",
   "version": "2.0.0",
   "description": "",
   "main": "main.js",
@@ -61,7 +61,8 @@
     "zod": "^3.22.4"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "short-uuid": "^4.2.2"
   },
   "config": {
     "commitizen": {
