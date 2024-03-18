@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/suuunly/artifical-flowcore-delay-transformer/compare/v1.0.0...v1.0.1) (2024-03-18)
+
+
+### Bug Fixes
+
+* corrected package name and added delay identifier ([c06b64e](https://github.com/suuunly/artifical-flowcore-delay-transformer/commit/c06b64e9e1a109b8d3bb2a90dd631949fa6f70f1))
+
 ## 1.0.0 (2024-03-18)
 
 
