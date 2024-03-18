@@ -6,6 +6,7 @@
 // -----------------------------------------------------------------------------
 
 import { environment } from "../contracts/environment";
+import uuid from "short-uuid";
 
 const delay = environment.TRANSFORMATION_DELAY_MS;
 
@@ -17,11 +18,12 @@ interface Input<T = any> {
 
 export default async function (input: Input) {
 
+  const id = uuid.generate();
   console.info(`Received event ${input.eventId}, with payload ${JSON.stringify(input.payload)} and valid time ${input.validTime}`);
 
-  console.info(`Running delay for ${delay}...`);
+  console.info(`(${id}) Running delay for ${delay}...`);
   await new Promise((resolve) => setTimeout(resolve, delay));
-  console.info("Delay finished.");
+  console.info(`(${id}) Delay finished.`);
 
   return {
     eventid: input.eventId,
